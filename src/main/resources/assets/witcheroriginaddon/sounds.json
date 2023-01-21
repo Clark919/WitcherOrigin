@@ -1,0 +1,104 @@
+{
+  "aard_sign": {
+    "subtitle": "witcheroriginaddon.aard_sign",
+    "sounds": [
+      "witcheroriginaddon:aard_sign"
+    ]
+  },
+  "igni_sign": {
+    "subtitle": "witcheroriginaddon.igni_sign",
+    "sounds": [
+      "witcheroriginaddon:igni_sign"
+    ]
+  },
+  "axii_sign": {
+    "subtitle": "witcheroriginaddon.axii_sign",
+    "sounds": [
+      "witcheroriginaddon:axii_sign"
+    ]
+  },
+  "yrden_sign": {
+    "subtitle": "witcheroriginaddon.yrden_sign",
+    "sounds": [
+      "witcheroriginaddon:yrden_sign"
+    ]
+  },
+  "quen_sign": {
+    "subtitle": "witcheroriginaddon.quen_sign",
+    "sounds": [
+      "witcheroriginaddon:quen_sign"
+    ]
+  },
+  "quen_sign_break": {
+    "subtitle": "witcheroriginaddon.quen_sign_break",
+    "sounds": [
+      "witcheroriginaddon:quen_sign_break"
+    ]
+  },
+  "select_sign": {
+    "subtitle": "witcheroriginaddon.select_sign",
+    "sounds": [
+      "witcheroriginaddon:select_sign"
+    ]
+  },
+  "witcher_rend": {
+    "subtitle": "witcheroriginaddon.witcher_rend",
+    "sounds": [
+      "witcheroriginaddon:witcher_rend"
+    ]
+  },
+  "witcher_potion_refill": {
+    "subtitle": "witcheroriginaddon.witcher_potion_refill",
+    "sounds": [
+      "witcheroriginaddon:witcher_potion_refill"
+    ]
+  },
+  "witcher_dash": {
+    "subtitle": "witcheroriginaddon.witcher_dash",
+    "sounds": [
+      "witcheroriginaddon:witcher_dash"
+    ]
+  },
+  "winters_blade": {
+    "subtitle": "witcheroriginaddon.winters_blade",
+    "sounds": [
+      "witcheroriginaddon:winters_blade"
+    ]
+  },
+  "zireael_dash": {
+    "subtitle": "witcheroriginaddon.zireael_dash",
+    "sounds": [
+      "witcheroriginaddon:zireael_dash"
+    ]
+  },
+  "aerondight_attack": {
+    "subtitle": "witcheroriginaddon.aerondight_attack",
+    "sounds": [
+      "witcheroriginaddon:aerondight_attack"
+    ]
+  },
+  "aerondight_deplete": {
+    "subtitle": "witcheroriginaddon.aerondight_deplete",
+    "sounds": [
+      "witcheroriginaddon:aerondight_deplete"
+    ]
+  },
+  "new_quest": {
+    "subtitle": "witcheroriginaddon.new_quest",
+    "sounds": [
+      "witcheroriginaddon:new_quest"
+    ]
+  },
+  "update_quest": {
+    "subtitle": "witcheroriginaddon.update_quest",
+    "sounds": [
+      "witcheroriginaddon:update_quest"
+    ]
+  },
+  "complete_quest": {
+    "subtitle": "witcheroriginaddon.complete_quest",
+    "sounds": [
+      "witcheroriginaddon:complete_quest"
+    ]
+  }
+}

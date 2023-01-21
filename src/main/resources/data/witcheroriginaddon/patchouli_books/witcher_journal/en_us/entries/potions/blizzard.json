@@ -1,0 +1,22 @@
+{
+    "name": "Blizzard",
+    "icon": "witcheroriginaddon:blizzard_potion",
+    "category": "witcheroriginaddon:potion_category",
+    "pages": [
+        {
+            "anchor": "page_blizzard",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:blizzard_potion",
+            "link_recipe": true,
+            "text": "Blizzard improves reflexes and reaction time, allowing the Witcher to perceive their foes as slower. Blizzard provides the following effects:$(li)$(l)Duration$(): 45s$(li)$(l)Inflict Slowness for 6s on hit.$()$(li)$(l)Inflict Weakness for 6s on hit.$()$(li)$(l:potions/toxicity#page_toxicity)$(2)$(l)[Toxicity]$(): +25%"
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shapeless)",
+            "images": [
+                "witcheroriginaddon:textures/gui/blizzard_recipe.png"
+            ],
+            "text": "Ingredients: $(l:crafting/alcohest#page_alcohest)Alcohest$() x1, Glass Bottle x1, Blue Ice x1, Soul Lantern x1."
+        }
+    ]
+}

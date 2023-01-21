@@ -1,0 +1,42 @@
+{
+  "schemaVersion": 1,
+  "id": "witcheroriginaddon",
+  "version": "${version}",
+
+  "name": "Witcher Origin",
+  "description": "Adds the Witcher as a playable Origin for Fabric 1.19. Requires Origins, Extra Origins, Origins Keybinds and Patchouli.",
+  "authors": [
+    "Clarkster"
+  ],
+  "contact": {
+    "homepage": "",
+    "sources": ""
+  },
+
+  "license": "MIT",
+  "icon": "assets/witcheroriginaddon/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "client": [
+      "com.clarkster.witcherorigin.WitcherClientOrigin"
+    ],
+    "main": [
+      "com.clarkster.witcherorigin.WitcherOrigin"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": "*",
+    "minecraft": ">=1.19",
+    "java": ">=17",
+    "origins": ">=1.6.2",
+    "patchouli": ">=1.19-74-FABRIC"
+  },
+  "suggests": {
+    "another-mod": "*"
+  }
+}

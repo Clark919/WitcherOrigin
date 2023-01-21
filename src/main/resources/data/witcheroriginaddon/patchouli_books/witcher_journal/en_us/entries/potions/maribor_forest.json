@@ -1,0 +1,21 @@
+{
+    "name": "Maribor Forest",
+    "icon": "witcheroriginaddon:maribor_forest_potion",
+    "category": "witcheroriginaddon:potion_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:maribor_forest_potion",
+            "link_recipe": true,
+            "text": "A potion first made by the dryads of Brokilon to boost vigor, Maribor Forest will provide the following effects:$(li)$(l)Instant Food$(): 10 Points$(li)$(l)Slight Saturation Boost$()$(li)$(l:potions/toxicity#page_toxicity)$(2)$(l)[Toxicity]$(): +20%"
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shapeless)",
+            "images": [
+                "witcheroriginaddon:textures/gui/maribor_recipe.png"
+            ],
+            "text": "Ingredients: $(l:crafting/alcohest#page_alcohest)Alcohest$() x1, Glass Bottle x1, Cake x1, Honey Bottle x1."
+        }
+    ]
+}

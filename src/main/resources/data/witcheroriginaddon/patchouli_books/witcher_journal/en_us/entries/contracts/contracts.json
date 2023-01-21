@@ -1,0 +1,105 @@
+{
+    "name": "Contracts",
+    "icon": "witcheroriginaddon:contract_creeper",
+    "category": "witcheroriginaddon:contract_category",
+    "pages": [
+        {
+            "anchor": "page_contracts",
+            "type": "patchouli:text",
+            "text": "Witchers can $(l:contracts/contracts#page_accept_contract)accept$() and $(l:contracts/contracts#page_exchange_contract)exchange$() various contracts to hunt $(l:contracts/enemy_types#page_monsters)monsters$() and $(l:contracts/enemy_types#page_non_humans)non-humans$() that the Villagers deem an issue from a $(l:crafting/contract_board#page_contract_board)Contract Board$(). These contracts will allow the Witcher to harvest $(l:contracts/trophies#page_trophies)trophies$() from their targets, which they can deposit for $(l:contracts/rewards#page_rewards)rewards.$()"
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/contract_image.png"
+            ],
+            "text": "Next Page: Accepting Contracts."
+        },
+        {
+            "anchor": "page_accept_contract",
+            "type": "patchouli:text",
+            "title": "Accepting Contracts",
+            "text": "When the Witcher is standing in range of a $(l:crafting/contract_board#page_contract_board)Contract Board$() and presses $(6)$(l)[$(k:saveToolbarActivator)]$() $(l)(Creative: Save Hotbar Activator)$() with an empty mainhand, they will accept a new contract to hunt a target. This ability has a cooldown of one full in-game day (24 mins), which will display on the HUD when the cooldown has five minutes remaining. This cannot be skipped or accelerated by sleeping."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/contract_image.png"
+            ],
+            "text": "Next Page: Exchanging Contracts."
+        },
+        {
+            "anchor": "page_exchange_contract",
+            "type": "patchouli:text",
+            "title": "Exchanging Contracts",
+            "text": "While holding a contract in your mainhand in range of a $(l:crafting/contract_board#page_contract_board)Contract Board$(), press $(6)$(l)[$(k:saveToolbarActivator)]$() $(l)(Creative: Save Hotbar Activator)$() to exchange your contract for another of the same rarity. This ability has a cooldown of 5 minutes, which will display on the HUD when the cooldown has one minute remaining."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/exchange_contract.png"
+            ],
+            "text": "Next Page: The Sentinels."
+        },
+        {
+            "anchor": "page_sentinels",
+            "type": "patchouli:text",
+            "title": "The Sentinels",
+            "text": "A secondary method of obtaining a contract is through a new Villager profession: the Sentinel Villager. These watchful scouts are created by giving an unemployed Villager a $(l:crafting/contract_board#page_contract_board)Contract Board$() as their job block. Trading with these villagers will result in them offering Sentinel Reports, which can be redeemed by Witchers for contracts."
+        },
+        {
+            "type": "patchouli:entity",
+            "name": "Villager Sentinel",
+            "entity": "minecraft:villager{VillagerData:{profession:\"witcheroriginaddon:sentinel\",level:1,type:plains}}",
+            "text": "Next Page: Uncommon Contracts."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Uncommon Contracts",
+            "text": "$(li)Creeper$(li)Drowned$(li)Enderman$(li)Hoglin$(li)Husk$(li)Phantom$(li)Piglin$(li)Skeleton$(li)Spider$(li)Stray$(li)Strider$(li)Wolf$(li)Zombie$(li)Zombified Piglin$() "
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/contract_uncommon.png"
+            ],
+            "text": "Next Page: Rare Contracts."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Rare Contracts",
+            "text": "$(li)Blaze$(li)Cave Spider$(li)Endermite$(li)Ghast$(li)Guardian$(li)Magma Cube$(li)Piglin Brute$(li)Pillager$(li)Silverfish$(li)Slime$(li)Vindicator$(li)Witch$(li)Wither Skeleton$(li)Zoglin$(li)Zombie Villager$() "
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/contract_rare.png"
+            ],
+            "text": "Next Page: Epic Contracts."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Epic Contracts",
+            "text": "$(li)Elder Guardian$(li2)$(l:crafting/tedd_sample#page_tedd_sample)Tedd Deireadh Sample$()$(li)Evoker$(li)Player$(li)Ravager$(li)Shulker$(li)Skeleton Horse$(li)Vex$(li)Warden$(li2)$(l:crafting/violet_rose#page_violet_rose)Violet Rose$()"
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/contract_epic.png"
+            ],
+            "text": "Next Page: Legendary Contracts."
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Legendary Contracts",
+            "text": "$(li)Ender Dragon$(li2)$(l:crafting/elder_blood#page_elder_blood)Elder Blood$()$(li)Wither$(li2)$(l:crafting/ladys_favour#page_ladys_favour)Lady's Favour$()"
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/contract_legendary.png"
+            ]
+        }
+        
+    ]
+}

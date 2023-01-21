@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "witcheroriginaddon:grandmaster_silver_sword"
+  },
+  "addition": {
+    "item": "witcheroriginaddon:ladys_favour"
+  },
+  "result": {
+    "item": "witcheroriginaddon:aerondight"
+  }
+}

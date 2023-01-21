@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "witcheroriginaddon:grandmaster_silver_sword"
+  },
+  "addition": {
+    "item": "witcheroriginaddon:elder_blood"
+  },
+  "result": {
+    "item": "witcheroriginaddon:zireael"
+  }
+}

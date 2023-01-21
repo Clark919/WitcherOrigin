@@ -1,0 +1,78 @@
+{
+  "display": {
+    "icon": {
+      "item": "witcheroriginaddon:thunderbolt_potion",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.witcher.all_witcher_potions.title"
+    },
+    "description": {
+      "translate": "advancements.witcher.all_witcher_potions.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "witcherorigin:witcher/witcher_potion",
+  "criteria": {
+    "potions": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:swallow_potion"
+            ],
+            "count": 3
+          },
+          {
+            "items": [
+              "witcheroriginaddon:cat_potion"
+            ],
+            "count": 3
+          },
+          {
+            "items": [
+              "witcheroriginaddon:blizzard_potion"
+            ],
+            "count": 3
+          },
+          {
+            "items": [
+              "witcheroriginaddon:thunderbolt_potion"
+            ],
+            "count": 3
+          },
+          {
+            "items": [
+              "witcheroriginaddon:maribor_forest_potion"
+            ],
+            "count": 3
+          },
+          {
+            "items": [
+              "witcheroriginaddon:full_moon_potion"
+            ],
+            "count": 3
+          },
+          {
+            "items": [
+              "witcheroriginaddon:black_blood_potion"
+            ],
+            "count": 3
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "potions"
+    ]
+  ],
+  "rewards": {
+    "experience": 50
+  }
+}

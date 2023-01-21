@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "witcheroriginaddon:kaer_morhen_chestplate"
+  },
+  "addition": {
+    "item": "minecraft:netherite_ingot"
+  },
+  "result": {
+    "item": "witcheroriginaddon:grandmaster_kaer_morhen_chestplate"
+  }
+}

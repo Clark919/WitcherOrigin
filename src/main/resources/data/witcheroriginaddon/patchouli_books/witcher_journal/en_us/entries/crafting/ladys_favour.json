@@ -1,0 +1,19 @@
+{
+    "name": "Lady's Favour",
+    "icon": "witcheroriginaddon:ladys_favour",
+    "category": "witcheroriginaddon:crafting_category",
+    "pages": [
+        {
+            "anchor": "page_ladys_favour",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:ladys_favour",
+            "link_recipe": true,
+            "text": "A favour bestowed upon a virtous knight worthy of wielding the sword in the lake. A necessary ingredient in crafing the Silver Relic Weapon, $(l:weapons_armour/relic_weapons_entry#page_aerondight)Aerondight$(). Has a chance to be rewarded when turning in a Wither $(l:contracts/trophies#page_trophies)Trophy.$()"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:wither",
+            "rotate": true
+        }
+    ]
+}

@@ -1,0 +1,20 @@
+{
+    "name": "Witcher Reflexes",
+    "icon": "witcheroriginaddon:textures/gui/witcher_dodge.png",
+    "category": "witcheroriginaddon:abilities_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Witcher mutations grant them greater reflexes and agility over a regular human. They can utilise these skills by pressing $(6)$(l)[$(k:origins.primary_active)]$() $(l)(Origins: Primary Active)$() while moving in a direction to dodge. The Witcher can dodge in 8 different directions on a short cooldown."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Cooldown Bar",
+            "border": true,
+            "images": [
+                "witcheroriginaddon:textures/gui/dodge_image.png"
+            ],
+            "text": "$(l)TIP$(): Witcher Reflexes are best used for mobility and dodging projectiles!"
+        }
+    ]
+}

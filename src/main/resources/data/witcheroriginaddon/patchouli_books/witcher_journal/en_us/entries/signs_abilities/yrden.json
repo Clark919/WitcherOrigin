@@ -1,0 +1,20 @@
+{
+    "name": "Yrden Sign",
+    "icon": "witcheroriginaddon:textures/gui/yrden.png",
+    "category": "witcheroriginaddon:abilities_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "If $(l:signs_abilities/selection_wheel)selected$(), the Witcher can press $(6)$(l)[$(k:origins.ternary_active)]$() $(l)(Origins: Ternary Active)$() to cast Yrden - a ring of warding runes inscribed onto a surface that slows foes passing through it. Witchers are immune to the effects of Yrden. Yrden has a cooldown of 14s after casting."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Cooldown Bar",
+            "border": true,
+            "images": [
+                "witcheroriginaddon:textures/gui/yrden_image.png"
+            ],
+            "text": "$(l)TIP$(): Yrden can be used to slow enemies who are chasing you!"
+        }
+    ]
+}

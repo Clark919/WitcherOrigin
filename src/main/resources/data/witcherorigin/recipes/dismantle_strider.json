@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "witcheroriginaddon:trophy_strider"
+        }
+    ],
+    "result": {
+        "item": "minecraft:nether_wart",
+        "count": 16
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Chainmail",
+    "icon": "witcheroriginaddon:chainmail",
+    "category": "witcheroriginaddon:crafting_category",
+    "pages": [
+        {
+            "anchor": "page_chainmail",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:chainmail",
+            "link_recipe": true,
+            "text": "A resource used to craft $(l:weapons_armour/chainmail_set)chainmail armour$(), and $(l:weapon_category)witcher armour$(). Yields 4 chainmail with each recipe."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/chainmail_recipe.png"
+            ],
+            "text": "Ingredients: Chain x4"
+        }
+    ]
+}

@@ -1,0 +1,66 @@
+{
+    "name": "Ursine Set",
+    "icon": "witcheroriginaddon:ursine_chestplate",
+    "category": "witcheroriginaddon:weapon_category",
+    "pages": [
+        {
+            "anchor": "page_ursine",
+            "type": "patchouli:text",
+            "text": "An armour set belonging to a grandmaster Witcher of the Bear School. Requires $(l:crafting/medallions#page_bear_medallion)Bear School Medallions$() to craft.$(br2)$(l)SET BONUS: $(o)Whenever an enemy shatters your $(6)Quen$(0) shield, there is a 30% chance a new one will be cast at no cost."
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "images": [
+                "witcheroriginaddon:textures/gui/ursine_set_image.png"
+            ],
+            "text": "Turn the page to learn more..."
+        },
+        {
+            "anchor": "page_ursine_chestplate",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:ursine_chestplate",
+            "link_recipe": true,
+            "text": "A grandmaster Bear Witcher's chestplate."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine $(l:weapons_armour/kaer_morhen_set#page_grandmaster_kaer_morhen_chestplate)Grandmaster Kaer Morhen Chestplate$() with a $(l:crafting/medallions#page_bear_medallion)Bear School Medallion$() in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/ursine_chestplate_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_ursine_greaves",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:ursine_greaves",
+            "link_recipe": true,
+            "text": "A grandmaster Bear Witcher's greaves."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine $(l:weapons_armour/kaer_morhen_set#page_grandmaster_kaer_morhen_greaves)Grandmaster Kaer Morhen Greaves$() with a $(l:crafting/medallions#page_bear_medallion)Bear School Medallion$() in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/ursine_greaves_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_ursine_boots",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:ursine_boots",
+            "link_recipe": true,
+            "text": "A grandmaster Bear Witcher's boots."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine $(l:weapons_armour/kaer_morhen_set#page_grandmaster_kaer_morhen_boots)Grandmaster Kaer Morhen Boots$() with a $(l:crafting/medallions#page_bear_medallion)Bear School Medallion$() in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/ursine_boots_recipe.png"
+            ]
+        }
+
+    ]
+}

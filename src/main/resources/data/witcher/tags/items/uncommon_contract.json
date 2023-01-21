@@ -1,0 +1,19 @@
+{
+    "replace": false,
+    "values": [
+        "witcheroriginaddon:contract_creeper",
+        "witcheroriginaddon:contract_drowned",
+        "witcheroriginaddon:contract_enderman",
+        "witcheroriginaddon:contract_hoglin",
+        "witcheroriginaddon:contract_husk",
+        "witcheroriginaddon:contract_phantom",
+        "witcheroriginaddon:contract_piglin",
+        "witcheroriginaddon:contract_skeleton",
+        "witcheroriginaddon:contract_spider",
+        "witcheroriginaddon:contract_stray",
+        "witcheroriginaddon:contract_strider",
+        "witcheroriginaddon:contract_wolf",
+        "witcheroriginaddon:contract_zombie",
+        "witcheroriginaddon:contract_zombified_piglin"
+    ]
+}

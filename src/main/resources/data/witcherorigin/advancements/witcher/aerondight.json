@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "witcheroriginaddon:aerondight",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.witcher.aerondight.title"
+    },
+    "description": {
+      "translate": "advancements.witcher.aerondight.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "witcherorigin:witcher/grandmaster_sword",
+  "criteria": {
+    "aerondight": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:aerondight"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "aerondight"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "witcheroriginaddon:trophy_skeleton_horse"
+        }
+    ],
+    "result": {
+        "item": "minecraft:name_tag",
+        "count": 4
+    }
+}

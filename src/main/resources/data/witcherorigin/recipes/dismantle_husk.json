@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "witcheroriginaddon:trophy_husk"
+        }
+    ],
+    "result": {
+        "item": "minecraft:rabbit_hide",
+        "count": 4
+    }
+}

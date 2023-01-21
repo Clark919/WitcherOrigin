@@ -1,0 +1,92 @@
+{
+    "type": "origins:active_self",
+    "name": "Relic Weapon",
+    "description": "Witchers can find the crafting reagents to upgrade their swords into unique relics with powerful effects.",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:resistance",
+                    "duration": 100,
+                    "amplifier": 50,
+                    "show_icon": false,
+                    "show_particles": false
+                }
+            },
+            {
+                "type": "origins:raycast",
+                "shape_type": "visual",
+                "fluid_handling": "none",
+                "entity": true,
+                "distance": 10,
+                "bientity_action": {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:damage",
+                        "amount": 8,
+                        "source": {
+                            "name": "magic",
+                            "bypasses_armor": false
+                        }
+                    }
+                },
+                "command_step": 0.25,
+                "command_along_ray": "particle witcheroriginaddon:zireael_particle ~ ~ ~ 0.2 0.2 0.2 0 3 normal"
+            },
+            {
+                "type": "origins:execute_command",
+                "permission_level": 4,
+                "command": "tp @s ^ ^1 ^10"
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "playsound witcheroriginaddon:zireael_dash neutral @a ~ ~ ~ 3 1.5"
+            }
+        ]
+    },
+    "condition": {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "witcheroriginaddon:zireael"
+            }
+        }
+    },
+    "cooldown": 160,
+    "key": {
+        "key": "key.use"
+    },
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "witcheroriginaddon:textures/gui/witcher_resource_bars.png",
+        "bar_index": 5,
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:ingredient",
+                "ingredient": {
+                    "item": "witcheroriginaddon:zireael"
+                }
+            }
+        }
+    },
+    "badges": [
+        {
+            "sprite": "origins:textures/gui/badge/active.png",
+            "text": "Active ability, use with %s while holding a relic weapon in your mainhand."
+        },
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "You must be holding Zireael, Aerondight, Winter's Blade or Iris to activate this ability."
+        },
+        {
+            "sprite": "origins:textures/gui/badge/info.png",
+            "text": "Information on obtaining these weapons can be found in the Witcher's Journal."
+        }
+    ]
+}

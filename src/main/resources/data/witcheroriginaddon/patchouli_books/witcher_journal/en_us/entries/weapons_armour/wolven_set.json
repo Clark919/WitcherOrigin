@@ -1,0 +1,66 @@
+{
+    "name": "Wolven Set",
+    "icon": "witcheroriginaddon:wolven_chestplate",
+    "category": "witcheroriginaddon:weapon_category",
+    "pages": [
+        {
+            "anchor": "page_wolven",
+            "type": "patchouli:text",
+            "text": "An armour set belonging to a grandmaster Witcher of the Wolf School. Requires $(l:crafting/medallions#page_wolf_medallion)Wolf School Medallions$() to craft.$(br2)$(l)SET BONUS: $(o)Whenever you consume $(b)[Blade Oil], $(0)there is a 40% chance to apply a random Witcher potion effect, or Whirl, temporarily."
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "images": [
+                "witcheroriginaddon:textures/gui/wolven_set_image.png"
+            ],
+            "text": "Turn the page to learn more..."
+        },
+        {
+            "anchor": "page_wolven_chestplate",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:wolven_chestplate",
+            "link_recipe": true,
+            "text": "A grandmaster Wolf Witcher's chestplate."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine $(l:weapons_armour/kaer_morhen_set#page_grandmaster_kaer_morhen_chestplate)Grandmaster Kaer Morhen Chestplate$() with a $(l:crafting/medallions#page_wolf_medallion)Wolf School Medallion$() in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/wolven_chestplate_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_wolven_greaves",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:wolven_greaves",
+            "link_recipe": true,
+            "text": "A grandmaster Wolf Witcher's greaves."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine $(l:weapons_armour/kaer_morhen_set#page_grandmaster_kaer_morhen_greaves)Grandmaster Kaer Morhen Greaves$() with a $(l:crafting/medallions#page_wolf_medallion)Wolf School Medallion$() in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/wolven_greaves_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_wolven_boots",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:wolven_boots",
+            "link_recipe": true,
+            "text": "A grandmaster Wolf Witcher's boots."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine $(l:weapons_armour/kaer_morhen_set#page_grandmaster_kaer_morhen_boots)Grandmaster Kaer Morhen Boots$() with a $(l:crafting/medallions#page_wolf_medallion)Wolf School Medallion$() in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/wolven_boots_recipe.png"
+            ]
+        }
+
+    ]
+}

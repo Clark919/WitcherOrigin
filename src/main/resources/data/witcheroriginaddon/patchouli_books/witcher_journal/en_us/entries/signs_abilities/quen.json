@@ -1,0 +1,20 @@
+{
+    "name": "Quen Sign",
+    "icon": "witcheroriginaddon:textures/gui/quen.png",
+    "category": "witcheroriginaddon:abilities_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Also known as the \"Witcher's Shield\", the Witcher can press $(6)$(l)[$(k:loadToolbarActivator)]$() $(l)(Creative: Load Hotbar Activator)$() to cast Quen - a protective shield that will protect the Witcher from the next source of damage they take, or will dispell automatically after 20s. Quen has a cooldown of 35s after casting."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Cooldown Bars",
+            "border": true,
+            "images": [
+                "witcheroriginaddon:textures/gui/quen_image.png"
+            ],
+            "text": "$(l)TIP$(): Quen can be used to survive a creeper explosion, or an otherwise lethal fall!"
+        }
+    ]
+}

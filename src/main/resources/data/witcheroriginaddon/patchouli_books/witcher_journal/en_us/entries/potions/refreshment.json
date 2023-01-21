@@ -1,0 +1,18 @@
+{
+    "name": "Refreshment",
+    "icon": "minecraft:brewing_stand",
+    "category": "witcheroriginaddon:potion_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "By standing in close range of a brewing stand and pressing $(6)$(l)[$(k:saveToolbarActivator)]$() with an Empty Potion Vial in hand, the Witcher will expend 1 $(l:crafting/alcohest#page_alcohest)[Alcohest]$() to refill that potion vial. Although more inefficient than $(l:potions/meditation#page_meditation)Meditation$(), refreshing a potion can be done at any time of day with only a brewing stand required."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/refreshment_image.png"
+            ],
+            "text": "Requires 1 $(l:crafting/alcohest#page_alcohest)[Alcohest]$() to refill per Empty Potion Vial."
+        }
+    ]
+}

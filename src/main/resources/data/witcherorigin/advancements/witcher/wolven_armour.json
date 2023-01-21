@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "item": "witcheroriginaddon:wolven_chestplate",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.witcher.wolven_armour.title"
+    },
+    "description": {
+      "translate": "advancements.witcher.wolven_armour.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "witcherorigin:witcher/gm_kaer_morhen_armour",
+  "criteria": {
+    "wolven_armour": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:wolven_chestplate"
+            ]
+          },
+          {
+            "items": [
+              "witcheroriginaddon:wolven_greaves"
+            ]
+          },
+          {
+            "items": [
+              "witcheroriginaddon:wolven_boots"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "wolven_armour"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

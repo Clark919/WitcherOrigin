@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "witcheroriginaddon:trophy_guardian"
+        }
+    ],
+    "result": {
+        "item": "minecraft:sea_lantern",
+        "count": 16
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Contract Board",
+    "icon": "witcheroriginaddon:contract_board",
+    "category": "witcheroriginaddon:crafting_category",
+    "pages": [
+        {
+            "anchor": "page_contract_board",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:contract_board",
+            "link_recipe": true,
+            "text": "The block where a Witcher can accept and exchange $(l:contracts/contracts#page_contracts)contracts$(). A necessary item to utilise the Witcher's full arsenal of abilities. Acts as the job block for the $(l:contracts/contracts#page_sentinels)Sentinel Villager$() profession."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/contract_board_recipe.png"
+            ],
+            "text": "Ingredients: Wooden Planks x4, $(l:crafting/enriched_dimeritium_ingot#page_enriched_dimeritium)Enriched Dimeritium Ingot x2$()"
+        }
+    ]
+}

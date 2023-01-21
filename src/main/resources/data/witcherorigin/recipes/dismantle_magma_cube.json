@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "witcheroriginaddon:trophy_magma_cube"
+        }
+    ],
+    "result": {
+        "item": "minecraft:magma_cream",
+        "count": 8
+    }
+}

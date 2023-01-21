@@ -1,0 +1,30 @@
+{
+    "name": "Aard Sign",
+    "icon": "witcheroriginaddon:textures/gui/aard.png",
+    "category": "witcheroriginaddon:abilities_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "If $(l:signs_abilities/selection_wheel)selected$(), the Witcher can press $(6)$(l)[$(k:origins.ternary_active)]$() $(l)(Origins: Ternary Active)$() to cast Aard - a telekinetic thrust that will damage and knockback enemies, and $(l:signs_abilities/aard#page_aard_blockstates)alter some blockstates$() in a cone in front of the Witcher. Knockback resistant opponents will resist the effects of Aard. Aard has a cooldown of 10s after being cast."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Cooldown Bar",
+            "border": true,
+            "images": [
+                "witcheroriginaddon:textures/gui/aard_image.png"
+            ],
+            "text": "$(l)TIP$(): Aard is able to reflect some projectiles if timed correctly!"
+        },
+        {
+            "anchor": "page_aard_blockstates",
+            "type": "patchouli:text",
+            "title": "Aard - Blockstates",
+            "text": "Aard will affect certain blocks when they are caught in the radius of the sign:$(li)Lava is cooled and turned into Basalt.$(li)Fires are extinguished.$(li)Lit Campfires, Candles and Candle Cakes will extinguish if you look at them while casting."
+        },
+        {
+            "type": "patchouli:empty",
+            "draw_filler": false
+        }
+    ]
+}

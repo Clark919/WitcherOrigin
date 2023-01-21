@@ -1,0 +1,21 @@
+{
+    "name": "Witcher Sign Menu",
+    "icon": "minecraft:recovery_compass",
+    "category": "witcheroriginaddon:abilities_category",
+    "pages": [
+        {
+            "anchor": "page_selection_wheel",
+            "type": "patchouli:text",
+            "text": "The Witcher can hold $(6)$(l)[$(k:origins.secondary_active)]$() $(l)(Origins: Secondary Active)$() to open up a radial menu. From there, they can drag their cursor to one of four signs (Igni, Axii, Aard, or Yrden) to select that sign as their current active sign. This can then be cast using $(6)$(l)[$(k:origins.ternary_active)]$() $(l)(Origins: Ternary Active)$()"
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Witcher Sign Menu",
+            "border": true,
+            "images": [
+                "witcheroriginaddon:textures/gui/selection_wheel.png"
+            ],
+            "text": "$(l)TIP$(): Each sign has an independent cooldown, while Quen has its own dedicated key!"
+        }
+    ]
+}

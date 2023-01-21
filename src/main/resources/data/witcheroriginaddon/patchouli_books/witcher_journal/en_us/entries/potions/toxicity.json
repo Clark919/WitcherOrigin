@@ -1,0 +1,32 @@
+{
+    "name": "Toxicity",
+    "icon": "witcheroriginaddon:textures/gui/toxicity.png",
+    "category": "witcheroriginaddon:potion_category",
+    "pages": [
+        {
+            "anchor": "page_toxicity",
+            "type": "patchouli:text",
+            "text": "$(2)$(l)[Toxicity]$() is a status effect gained by drinking a $(l:potion_category)Witcher's potion$(). Each potion will add a varying amount of toxicity, which will be added to the resource bar on your HUD. $(2)$(l)[Toxicity]$() increments in % values, up to a maximum of 100%:$(li)$(l)0%$(): No Effects.$(li)$(l)1%-60%$(): Small Attack Boost.$(li)$(l)60%+$(): Moderate Attack Boost, Nausea, Slowness.$(li)$(l)85%+$(): High Attack Boost, Take Damage over Time.$(li)$(l)100%$(): Overdose and die, instantly."
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "images": [
+                "witcheroriginaddon:textures/gui/toxicity_image.png"
+            ],
+            "text": "Next Page: Toxicity Sources"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Toxicity Sources",
+            "text": "$(2)$(l)[Toxicity]$() is increased by the following sources:$(li)$(l:potions/swallow)[Swallow]$(): +25%$(li)$(l:potions/cat)[Cat]$(): +20%$(li)$(l:potions/blizzard)[Blizzard]$(): +25%$(li)$(l:potions/thunderbolt)[Thunderbolt]$(): +25%$(li)$(l:potions/black_blood)[Black Blood]$(): +20%$(li)$(l:potions/maribor_forest)[Maribor Forest]$(): +20%$(li)$(l:potions/full_moon)[Full Moon]$(): +30%"
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:milk_bucket",
+            "link_recipe": true,
+            "title": "Reducing Toxicity",
+            "text": "$(2)$(l)[Toxicity]$() will decay over time, or can be fully cleared using a [Milk Bucket]. Note that this will also remove all potion effects attributed to the Witcher."
+        }
+    ]
+}

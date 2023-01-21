@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "witcheroriginaddon:trophy_vindicator"
+        }
+    ],
+    "result": {
+        "item": "minecraft:iron_ingot",
+        "count": 32
+    }
+}

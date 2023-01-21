@@ -1,0 +1,30 @@
+{
+    "name": "Igni Sign",
+    "icon": "witcheroriginaddon:textures/gui/igni.png",
+    "category": "witcheroriginaddon:abilities_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "If $(l:signs_abilities/selection_wheel)selected$(), the Witcher can press $(6)$(l)[$(k:origins.ternary_active)]$() $(l)(Origins: Ternary Active)$() to cast Igni - a pyrokinetic burst that ignites opponents and $(l:signs_abilities/igni#page_igni_blockstates)alters some blockstates$() in a medium radius around the Witcher. Igni has a cooldown of 10s after casting."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Cooldown Bar",
+            "border": true,
+            "images": [
+                "witcheroriginaddon:textures/gui/igni_image.png"
+            ],
+            "text": "$(l)TIP$(): Use Igni to burn large groups of enemies, or to escape powder snow or cobweb traps!"
+        },
+        {
+            "anchor": "page_igni_blockstates",
+            "type": "patchouli:text",
+            "title": "Igni - Blockstates",
+            "text": "Igni will affect certain blocks when they are caught in the radius of the sign:$(li)Powdered Snow will melt into water.$(li)All Ice variants will melt into water.$(li)Cobwebs and Sweet Berry Bushes will burn away.$(li)Unlit Campfires, Candles and Candle Cakes will light if you look at them while casting.$(li)Grass, Vines and Ferns will burn away."
+        },
+        {
+            "type": "patchouli:empty",
+            "draw_filler": false
+        }
+    ]
+}

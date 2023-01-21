@@ -1,0 +1,65 @@
+{
+    "name": "Silver Swords",
+    "icon": "witcheroriginaddon:silver_sword",
+    "category": "witcheroriginaddon:weapon_category",
+    "pages": [
+        {
+            "anchor": "page_witcher_silver_swords",
+            "type": "patchouli:text",
+            "text": "Silver Swords are the preferred weapon of a Witcher when hunting $(l:contracts/enemy_types#page_monsters)creatures and monsters$(). Although the blade is more delicate than steel, monsters are weakened by the properties of silver, allowing you to harvest $(l:contracts/trophies#page_trophies)trophies$() from them if holding the appropriate $(l:contracts/contracts#page_contracts)contract.$()"
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/silver_sword_image.png"
+            ],
+            "text": "Turn the page to learn more..."
+        },
+        {
+            "anchor": "page_silver_sword",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:silver_sword",
+            "link_recipe": true,
+            "text": "The standard Witcher's silver sword. Will allow you to harvest a $(l:contracts/trophies#page_trophies)trophy$() from any $(l:contracts/enemy_types#page_monsters)monster-type enemies$(), provided you have their $(l:contracts/contracts#page_contracts)contract$() in your inventory. You will also deal additional damage to monster-type enemies if you are holding $(l:signs_abilities/blade_oil#page_blade_oil)[Blade Oil]$() in your offhand."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shaped)",
+            "text": "Ingredients: $(l:crafting/dimeritium_ingot#page_dimeritium)Dimeritium Ingot$() x2, Leather x2, and Stick x1.",
+            "images": [
+                "witcheroriginaddon:textures/gui/silver_sword_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_enhanced_silver_sword",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:enhanced_silver_sword",
+            "link_recipe": true,
+            "text": "An upgrade to the silver sword, dealing more base attack damage. Will allow you to harvest a $(l:contracts/trophies#page_trophies)trophy$() from any $(l:contracts/enemy_types#page_monsters)monster-type enemies$(), provided you have their $(l:contracts/contracts#page_contracts)contract$() in your inventory. You will also deal additional damage to monster-type enemies if you are holding $(l:signs_abilities/blade_oil#page_blade_oil)[Blade Oil]$() in your offhand."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shaped)",
+            "text": "Ingredients: $(l:weapons_armour/silver_sword_entry#page_silver_sword)Silver Sword$() x1, $(l:crafting/enriched_dimeritium_ingot#page_enriched_dimeritium)Enriched Dimeritium Ingot$() x6, and Leather x2.",
+            "images": [
+                "witcheroriginaddon:textures/gui/enhanced_silver_sword_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_grandmaster_silver_sword",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:grandmaster_silver_sword",
+            "link_recipe": true,
+            "text": "The final upgrade to the silver sword, dealing more base attack damage than its two predecessors. Can be upgraded into a silver $(l:weapons_armour/relic_weapons_entry#page_relic_weapons)relic weapon$() at a smithing table. Will allow you to harvest a $(l:contracts/trophies#page_trophies)trophy$() from any $(l:contracts/enemy_types#page_monsters)monster-type enemies$(), provided you have their $(l:contracts/contracts#page_contracts)contract$() in your inventory. You will also deal additional damage to monster-type enemies if you are holding $(l:signs_abilities/blade_oil#page_blade_oil)[Blade Oil]$() in your offhand."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine an $(l:weapons_armour/silver_sword_entry#page_enhanced_silver_sword)Enhanced Silver Sword$() with a Netherite Ingot in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/grandmaster_silver_sword_recipe.png"
+            ]
+        }
+
+    ]
+}

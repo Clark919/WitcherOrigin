@@ -1,0 +1,12 @@
+{
+    "replace": false,
+    "values": [
+        "witcheroriginaddon:empty_swallow_potion",
+        "witcheroriginaddon:empty_blizzard_potion",
+        "witcheroriginaddon:empty_cat_potion",
+        "witcheroriginaddon:empty_black_blood_potion",
+        "witcheroriginaddon:empty_thunderbolt_potion",
+        "witcheroriginaddon:empty_full_moon_potion",
+        "witcheroriginaddon:empty_maribor_forest_potion"
+    ]
+}

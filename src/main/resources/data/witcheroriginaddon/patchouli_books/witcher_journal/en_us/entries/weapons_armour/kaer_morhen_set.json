@@ -1,0 +1,128 @@
+{
+    "name": "Kaer Morhen Set",
+    "icon": "witcheroriginaddon:kaer_morhen_chestplate",
+    "category": "witcheroriginaddon:weapon_category",
+    "pages": [
+        {
+            "anchor": "page_kaer_morhen",
+            "type": "patchouli:text",
+            "text": "An all-purpose Witcher's armour, given to the Witchers of Kaer Morhen.$(br2)$(l)SET BONUS: $(o)While holding a $(a)Contract $(0)or $(a)Trophy $(0)in your offhand, gain additional armour and slight movement speed."
+        },
+        {
+            "type": "patchouli:image",
+            "border": true,
+            "images": [
+                "witcheroriginaddon:textures/gui/kaer_morhen_set_image.png"
+            ],
+            "text": "Turn the page to learn more..."
+        },
+        {
+            "anchor": "page_kaer_morhen_chestplate",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:kaer_morhen_chestplate",
+            "link_recipe": true,
+            "text": "A general Witcher's chestplate suited for travelling and hunting monsters. The first available Witcher armour piece, which serves as the root of all Witcher armour upgrades. Can be upgraded into $(l:weapons_armour/kaer_morhen_set#page_grandmaster_kaer_morhen_chestplate)Grandmaster Kaer Morhen Chestplate.$()"
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shaped)",
+            "text": "Ingredients: $(l:weapons_armour/chainmail_set#page_chainmail_chestplate)Chainmail Chestplate$() x1, $(l:crafting/chainmail#page_chainmail)Chainmail$() x5, and Leather x2",
+            "images": [
+                "witcheroriginaddon:textures/gui/kaer_morhen_chestplate_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_kaer_morhen_greaves",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:kaer_morhen_greaves",
+            "link_recipe": true,
+            "text": "A general Witcher's trousers suited for travelling and hunting monsters. The first available Witcher armour piece, which serves as the root of all Witcher armour upgrades. Can be upgraded into $(l:weapons_armour/kaer_morhen_set#page_grandmaster_kaer_morhen_greaves)Grandmaster Kaer Morhen Greaves.$()"
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shaped)",
+            "text": "Ingredients: $(l:weapons_armour/chainmail_set#page_chainmail_leggings)Chainmail Leggings$() x1, $(l:crafting/chainmail#page_chainmail)Chainmail$() x2, and Leather x4",
+            "images": [
+                "witcheroriginaddon:textures/gui/kaer_morhen_greaves_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_kaer_morhen_boots",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:kaer_morhen_boots",
+            "link_recipe": true,
+            "text": "A general Witcher's pair of boots suited for travelling and hunting monsters. The first available Witcher armour piece, which serves as the root of all Witcher armour upgrades. Can be upgraded into $(l:weapons_armour/kaer_morhen_set#page_grandmaster_kaer_morhen_boots)Grandmaster Kaer Morhen Boots.$()"
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shaped)",
+            "text": "Ingredients: $(l:weapons_armour/chainmail_set#page_chainmail_boots)Chainmail Boots$() x1, $(l:crafting/chainmail#page_chainmail)Chainmail$() x2, and Leather x2",
+            "images": [
+                "witcheroriginaddon:textures/gui/kaer_morhen_boots_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_grandmaster_kaer_morhen",
+            "border": true,
+            "title": "Grandmaster K.M. Set",
+            "type": "patchouli:text",
+            "text": "A master Witcher's armour, customised for efficiency by a Witcher of Kaer Morhen.$(br2)$(l)SET BONUS: $(o)While holding a $(a)Contract, $(a)Trophy, [Crossbow], $(0)or $(b)[Blade Oil] $(0)in your offhand, gain additional armour and slight movement speed."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/grandmaster_kaer_morhen_set_image.png"
+            ],
+            "text": "Turn the page to learn more..."
+        },
+        {
+            "anchor": "page_grandmaster_kaer_morhen_chestplate",
+            "title": "Grandmaster K.M. Chestplate",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:grandmaster_kaer_morhen_chestplate",
+            "link_recipe": true,
+            "text": "A master Witcher's chestplate suited for travelling and hunting monsters. Can be upgraded into a Witcher chestplate from a specific school."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine $(l:weapons_armour/kaer_morhen_set#page_kaer_morhen_chestplate)Kaer Morhen Chestplate$() with a Netherite Ingot in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/grandmaster_kaer_morhen_chestplate_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_grandmaster_kaer_morhen_greaves",
+            "title": "Grandmaster K.M. Greaves",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:grandmaster_kaer_morhen_greaves",
+            "link_recipe": true,
+            "text": "A master Witcher's trousers suited for travelling and hunting monsters. Can be upgraded into Witcher greaves from a specific school."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine $(l:weapons_armour/kaer_morhen_set#page_kaer_morhen_greaves)Kaer Morhen Greaves$() with a Netherite Ingot in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/grandmaster_kaer_morhen_greaves_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_grandmaster_kaer_morhen_boots",
+            "title": "Grandmaster K.M. Boots",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:grandmaster_kaer_morhen_boots",
+            "link_recipe": true,
+            "text": "A master Witcher's pair of boots suited for travelling and hunting monsters. Can be upgraded into Witcher boots from a specific school."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine $(l:weapons_armour/kaer_morhen_set#page_kaer_morhen_boots)Kaer Morhen Boots$() with a Netherite Ingot in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/grandmaster_kaer_morhen_boots_recipe.png"
+            ]
+        }
+
+    ]
+}

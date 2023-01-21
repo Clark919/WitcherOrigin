@@ -1,0 +1,6 @@
+{
+  "parent": "item/handheld",
+  "textures": {
+    "layer0": "witcheroriginaddon:items/enhanced_silver_sword"
+  }
+}

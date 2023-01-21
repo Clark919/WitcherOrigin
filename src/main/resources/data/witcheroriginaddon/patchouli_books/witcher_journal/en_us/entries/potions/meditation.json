@@ -1,0 +1,19 @@
+{
+    "name": "Meditation",
+    "icon": "minecraft:campfire",
+    "category": "witcheroriginaddon:potion_category",
+    "pages": [
+        {
+            "anchor": "page_meditation",
+            "type": "patchouli:text",
+            "text": "Witchers are able to passively refill up to 3 of each potion type each time they sleep. Sleeping in a 5-block range of a campfire while holding $(l:crafting/alcohest#page_alcohest)[Alcohest]$() will consume one to refill any empty potion vials you may have in your inventory. Alternatively, the Witcher can refill their potions via $(l:potions/refreshment)Refreshment$() at any time of day."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/meditation_image.png"
+            ],
+            "text": "Requires 1 $(l:crafting/alcohest#page_alcohest)[Alcohest]$() to refill. You can safely harvest unlit campfires as long as you use an axe."
+        }
+    ]
+}

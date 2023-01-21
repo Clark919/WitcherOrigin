@@ -1,0 +1,30 @@
+{
+    "name": "Trophies",
+    "icon": "witcheroriginaddon:trophy_enderman",
+    "category": "witcheroriginaddon:contract_category",
+    "pages": [
+        {
+            "anchor": "page_trophies",
+            "type": "patchouli:text",
+            "text": "Witchers can harvest trophies from their foes, or obtain them using other means. Trophies are necessary to receive rewards."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/trophy_image.png"
+            ],
+            "text": "Next Page: How to Obtain."
+        },
+        {
+            "anchor": "page_obtain_trophies",
+            "type": "patchouli:text",
+            "title": "Obtaining Trophies",
+            "text": "Trophies can be acquired from opponents in two distinct ways:$(br)$(li)$(l)Drop Chance$(): The first method is through random drop chance. While the Witcher Origin is installed, any player killing a contract mob without holding their respective contract has a slight chance to recieve that mob's trophy. The probability is between 1%-5%, depending on the rarity of encountering the mob (higher rarity = higher drop chance)."
+        },
+        {
+            "type": "patchouli:text",
+            "title": " ",
+            "text": "$(li)$(l)Contracts$(): The second, and most reliable method for the Witcher to acquire trophies is through contracts. While holding a contract for a mob, you are eligible to harvest their trophy with a 100% chance. The criteria are:$(li2)$(l:contracts/enemy_types)You must be wielding the correct blade type for the monster you are hunting in your mainhand.$()$(li2)You must deal the final blow yourself, without using projectiles. This means you cannot land a killing blow with an offhand crossbow to harvest a trophy."
+        }
+    ]
+}

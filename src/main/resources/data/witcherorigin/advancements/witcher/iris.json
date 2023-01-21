@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "witcheroriginaddon:iris",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.witcher.iris.title"
+    },
+    "description": {
+      "translate": "advancements.witcher.iris.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "witcherorigin:witcher/grandmaster_sword",
+  "criteria": {
+    "iris": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:iris"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "iris"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

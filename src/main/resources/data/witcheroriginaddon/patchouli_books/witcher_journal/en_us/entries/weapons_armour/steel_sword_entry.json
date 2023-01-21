@@ -1,0 +1,65 @@
+{
+    "name": "Steel Swords",
+    "icon": "witcheroriginaddon:steel_sword",
+    "category": "witcheroriginaddon:weapon_category",
+    "pages": [
+        {
+            "anchor": "page_witcher_steel_swords",
+            "type": "patchouli:text",
+            "text": "Steel Swords are the preferred weapon of a Witcher when fighting $(l:contracts/enemy_types#page_non_humans)humans and non-humans$(). The sharp blade paired with your precise swings against non-human-type enemies, allows you to harvest $(l:contracts/trophies#page_trophies)trophies$() from them if holding the appropriate $(l:contracts/contracts#page_contracts)contract.$()"
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/steel_sword_image.png"
+            ],
+            "text": "Turn the page to learn more..."
+        },
+        {
+            "anchor": "page_steel_sword",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:steel_sword",
+            "link_recipe": true,
+            "text": "The standard Witcher's steel sword. Will allow you to harvest a $(l:contracts/trophies#page_trophies)trophy$() from any $(l:contracts/enemy_types#page_non_humans)non-human-type enemies$(), provided you have their $(l:contracts/contracts#page_contracts)contract$() in your inventory. You will also deal additional damage to non-human-type enemies if you are holding $(l:signs_abilities/blade_oil#page_blade_oil)[Blade Oil]$() in your offhand."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shaped)",
+            "text": "Ingredients: Iron Ingot x2, Leather x2, and Stick x1.",
+            "images": [
+                "witcheroriginaddon:textures/gui/steel_sword_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_enhanced_steel_sword",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:enhanced_steel_sword",
+            "link_recipe": true,
+            "text": "An upgrade to the steel sword, dealing more base attack damage. Will allow you to harvest a $(l:contracts/trophies#page_trophies)trophy$() from any $(l:contracts/enemy_types#page_non_humans)non-human-type enemies$(), provided you have their $(l:contracts/contracts#page_contracts)contract$() in your inventory. You will also deal additional damage to non-human-type enemies if you are holding $(l:signs_abilities/blade_oil#page_blade_oil)[Blade Oil]$() in your offhand."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shaped)",
+            "text": "Ingredients: $(l:weapons_armour/steel_sword_entry#page_steel_sword)Steel Sword$() x1, $(l:crafting/enriched_dimeritium_ingot#page_enriched_dimeritium)Enriched Dimeritium Ingot$() x6, and Leather x2.",
+            "images": [
+                "witcheroriginaddon:textures/gui/enhanced_steel_sword_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_grandmaster_steel_sword",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:grandmaster_steel_sword",
+            "link_recipe": true,
+            "text": "The final upgrade to the steel sword, dealing more base attack damage than its two predecessors. Can be upgraded into a steel $(l:weapons_armour/relic_weapons_entry#page_relic_weapons)relic weapon$() at a smithing table. Will allow you to harvest a $(l:contracts/trophies#page_trophies)trophy$() from any $(l:contracts/enemy_types#page_non_humans)non-human-type enemies$(), provided you have their $(l:contracts/contracts#page_contracts)contract$() in your inventory. You will also deal additional damage to non-human-type enemies if you are holding $(l:signs_abilities/blade_oil#page_blade_oil)[Blade Oil]$() in your offhand."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (smithing)",
+            "text": "Combine an $(l:weapons_armour/steel_sword_entry#page_enhanced_steel_sword)Enhanced Steel Sword$() with a Netherite Ingot in a smithing table.",
+            "images": [
+                "witcheroriginaddon:textures/gui/grandmaster_steel_sword_recipe.png"
+            ]
+        }
+
+    ]
+}

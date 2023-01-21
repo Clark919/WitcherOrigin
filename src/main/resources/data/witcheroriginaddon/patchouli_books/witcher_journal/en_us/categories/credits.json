@@ -1,0 +1,5 @@
+{
+    "name": "Witcher Origin - Credits",
+    "description": "$(l)$(c)Witcher Origin$() $(l)(1.19): $(li)Created by $(9)Clarkster$().$(br)Thanks for using my mod!$(br2)Testing:$(li)$(9)$(l)Clarkster$()$(li)$(4)$(l)ZenithRaiden$().$(br2)Dependencies:$(br)$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/origins)Origins (Fabric)$() by $(0)$(l)Apace100$().$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/extra-origins)Extra Origins$() by $(0)$(l)MoriyaShiine$().$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/origins-extra-keybinds)Origins Extra Keybinds$() by $(0)$(l)thatrobin3001$().$(li)$(l:https://www.curseforge.com/minecraft/mc-mods/patchouli)Patchouli$() by $(0)$(l)Vazkii$().",
+    "icon": "minecraft:player_head{SkullOwner:Clarkster}"
+}

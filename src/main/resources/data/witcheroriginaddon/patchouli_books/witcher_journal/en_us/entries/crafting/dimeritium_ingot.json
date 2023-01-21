@@ -1,0 +1,21 @@
+{
+    "name": "Dimeritium Ingot",
+    "icon": "witcheroriginaddon:dimeritium_ingot",
+    "category": "witcheroriginaddon:crafting_category",
+    "pages": [
+        {
+            "anchor": "page_dimeritium",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:dimeritium_ingot",
+            "link_recipe": true,
+            "text": "A resource used to craft the basic silver sword, and repair both basic $(l:weapon_category)witcher weapons.$() Reagent used in crafting $(l:crafting/enriched_dimeritium_ingot#page_enriched_dimeritium)Enriched Dimeritium Ingots.$()"
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/dimeritium_recipe.png"
+            ],
+            "text": "Ingredients: Lapis Lazuli x4, Gold Ingot x1."
+        }
+    ]
+}

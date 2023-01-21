@@ -1,0 +1,20 @@
+{
+    "name": "Tedd Deireadh Sample",
+    "icon": "witcheroriginaddon:tedd_deireadh_sample",
+    "category": "witcheroriginaddon:crafting_category",
+    "pages": [
+        {
+            "anchor": "page_tedd_sample",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:tedd_deireadh_sample",
+            "link_recipe": true,
+            "text": "A sample taken from a world claimed by the White Frost. A necessary ingredient in crafing the Steel Relic Weapon, $(l:weapons_armour/relic_weapons_entry#page_winters_blade)Winter's Blade$(). Has a chance to be rewarded when turning in an Elder Guardian $(l:contracts/trophies#page_trophies)Trophy.$()"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:elder_guardian",
+            "scale": 0.5,
+            "rotate": true
+        }
+    ]
+}

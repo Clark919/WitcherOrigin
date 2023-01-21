@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "witcheroriginaddon:trophy_wither_skeleton"
+        }
+    ],
+    "result": {
+        "item": "minecraft:coal_block",
+        "count": 4
+    }
+}

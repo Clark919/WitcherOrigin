@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "witcheroriginaddon:grandmaster_kaer_morhen_greaves"
+  },
+  "addition": {
+    "item": "witcheroriginaddon:wolf_medallion"
+  },
+  "result": {
+    "item": "witcheroriginaddon:wolven_greaves"
+  }
+}

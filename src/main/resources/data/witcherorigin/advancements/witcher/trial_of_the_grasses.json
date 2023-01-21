@@ -1,0 +1,42 @@
+{
+  "display": {
+    "icon": {
+      "item": "witcheroriginaddon:empty_swallow_potion"
+    },
+    "title": {
+      "translate": "advancements.witcher.all_potions.title"
+    },
+    "description": {
+      "translate": "advancements.witcher.all_potions.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "witcherorigin:witcher/witcher_potion",
+  "criteria": {
+    "all_effects": {
+      "trigger": "minecraft:effects_changed",
+      "conditions": {
+        "effects": {
+          "witcheroriginaddon:swallow": {},
+          "witcheroriginaddon:cat": {},
+          "witcheroriginaddon:thunderbolt": {},
+          "witcheroriginaddon:blizzard": {},
+          "witcheroriginaddon:black_blood": {},
+          "witcheroriginaddon:full_moon": {},
+          "witcheroriginaddon:maribor_forest": {}
+        }
+      }
+    }
+  },
+  "requirements": [
+    [
+      "all_effects"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

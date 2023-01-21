@@ -1,0 +1,46 @@
+{
+    "name": "Alcohest",
+    "icon": "witcheroriginaddon:alcohest",
+    "category": "witcheroriginaddon:crafting_category",
+    "pages": [
+        {
+            "anchor": "page_alcohest",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:alcohest",
+            "link_recipe": true,
+            "text": "A vital reagent used to create $(l:potion_category)Witcher Potions$() and refill them. Can also be used to craft Campfires (see next page)."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/alcohest_recipe.png"
+            ],
+            "text": "Ingredients: Glass Bottle x1, $(l:crafting/alcohest#page_alcohol_base)Alcohol Base$() x1, $(l:crafting/alcohest#page_sweet_material)Sweet Material$() x1."
+        },
+        {
+            "type": "patchouli:spotlight",
+            "item": "minecraft:campfire",
+            "link_recipe": true,
+            "text": "A standard campfire, useful when the Witcher needs to $(l:potions/meditation#page_meditation)meditate$(). You can safely harvest unlit campfires as long as you use an axe."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/campfire_recipe.png"
+            ],
+            "text": "Ingredients: Stick x3, Alcohest x1, Any Log x3."
+        },
+        {
+            "anchor": "page_alcohol_base",
+            "type": "patchouli:text",
+            "title": "Alcohol Bases",
+            "text": "Alcohol Bases are a vital reagent used in $(l:crafting/alcohest#page_alcohest)[Alcohest]$(). Alcohol Bases include:$(li)Wheat$(li)Sugar Cane$(li)Potato$(li)Cactus$(li)Apple"
+        },
+        {
+            "anchor": "page_sweet_material",
+            "type": "patchouli:text",
+            "title": "Sweet Materials",
+            "text": "Sweet Materials are a vital reagent used in $(l:crafting/alcohest#page_alcohest)[Alcohest]$(). Sweet Materials include:$(li)Sweet Berries$(li)Chorus Fruit$(li)Glow Berries$(li)Cocoa Beans$(li)Nether Wart$(li)Honey Bottle"
+        }
+    ]
+}

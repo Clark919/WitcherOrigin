@@ -1,0 +1,20 @@
+{
+    "name": "Witcher's Journal",
+    "icon": "witcheroriginaddon:textures/items/witcher_journal.png",
+    "category": "witcheroriginaddon:crafting_category",
+    "pages": [
+        {
+            "anchor": "page_witcher_journal",
+            "type": "patchouli:text",
+            "text": "A method to craft a copy of this journal, in-case you lose the one you are reading."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shapeless)",
+            "images": [
+                "witcheroriginaddon:textures/gui/witcher_journal_recipe.png"
+            ],
+            "text": "Ingredients: Book x1, $(l:crafting/dimeritium_ingot#page_dimeritium)Dimeritium Ingot$() x1"
+        }
+    ]
+}

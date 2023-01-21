@@ -1,0 +1,22 @@
+{
+    "name": "Wither Rose",
+    "icon": "minecraft:wither_rose",
+    "category": "witcheroriginaddon:crafting_category",
+    "pages": [
+        {
+            "anchor": "page_wither_rose",
+            "type": "patchouli:spotlight",
+            "item": "minecraft:wither_rose",
+            "link_recipe": true,
+            "text": "A new way to craft a wither rose, specifically to be used in the $(l:potions/black_blood#page_black_blood)[Black Blood]$() recipe."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shapeless)",
+            "images": [
+                "witcheroriginaddon:textures/gui/wither_rose_recipe.png"
+            ],
+            "text": "Ingredients: Black Dye x1, Rose Bush x1"
+        }
+    ]
+}

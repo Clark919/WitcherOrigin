@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "witcheroriginaddon:grandmaster_steel_sword"
+  },
+  "addition": {
+    "item": "witcheroriginaddon:tedd_deireadh_sample"
+  },
+  "result": {
+    "item": "witcheroriginaddon:winters_blade"
+  }
+}

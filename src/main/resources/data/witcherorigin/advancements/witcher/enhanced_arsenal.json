@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "item": "witcheroriginaddon:enhanced_silver_sword",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.witcher.enhanced_arsenal.title"
+    },
+    "description": {
+      "translate": "advancements.witcher.enhanced_arsenal.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "witcherorigin:witcher/killing_monsters",
+  "criteria": {
+    "steel_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:enhanced_steel_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "silver_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:enhanced_silver_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "steel_sword",
+      "silver_sword"
+    ]
+  ]
+}

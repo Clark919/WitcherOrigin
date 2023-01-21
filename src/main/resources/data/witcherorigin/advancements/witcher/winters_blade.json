@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "witcheroriginaddon:winters_blade",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.witcher.winters_blade.title"
+    },
+    "description": {
+      "translate": "advancements.witcher.winters_blade.description"
+    },
+    "frame": "challenge",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "witcherorigin:witcher/grandmaster_sword",
+  "criteria": {
+    "winters_blade": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:winters_blade"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "winters_blade"
+    ]
+  ],
+  "rewards": {
+    "experience": 100
+  }
+}

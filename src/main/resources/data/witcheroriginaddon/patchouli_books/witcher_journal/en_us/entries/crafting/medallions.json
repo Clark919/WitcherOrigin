@@ -1,0 +1,21 @@
+{
+    "name": "Witcher Medallions",
+    "icon": "witcheroriginaddon:wolf_medallion",
+    "category": "witcheroriginaddon:crafting_category",
+    "pages": [
+        {
+            "anchor": "page_wolf_medallion",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:wolf_medallion",
+            "link_recipe": true,
+            "text": "A resource used to craft $(l:weapons_armour/wolven_set#page_wolven)Wolven armour$(). They are obtained as a rare drop from any $(l:contracts/rewards#page_bonus_stash)Bonus Stash.$()"
+        },
+        {
+            "anchor": "page_bear_medallion",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:bear_medallion",
+            "link_recipe": true,
+            "text": "A resource used to craft $(l:weapons_armour/ursine_set#page_ursine)Ursine armour$(). They are obtained as a rare drop from any $(l:contracts/rewards#page_bonus_stash)Bonus Stash.$()"
+        }
+    ]
+}

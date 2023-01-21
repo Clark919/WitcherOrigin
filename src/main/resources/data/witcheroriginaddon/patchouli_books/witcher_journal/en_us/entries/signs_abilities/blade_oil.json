@@ -1,0 +1,45 @@
+{
+    "name": "Blade Oil",
+    "icon": "witcheroriginaddon:blade_oil",
+    "category": "witcheroriginaddon:abilities_category",
+    "pages": [
+        {
+            "anchor": "page_blade_oil",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:blade_oil",
+            "link_recipe": true,
+            "text": "[Blade Oil] is a consumable used to $(l:signs_abilities/blade_oil#page_using_blade_oil)enhance the damage$() of your $(l:weapon_category)Witcher swords$() against their respective target. The crafting recipe will yield 2 [Blade Oil]."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/blade_oil_recipe.png"
+            ],
+            "text": "Ingredients: Gunpowder x1, $(l:signs_abilities/blade_oil#page_monster_reagents)Monster Reagent$() x1, Any Flower x1."
+        },
+        {
+            "anchor": "page_monster_reagents",
+            "type": "patchouli:text",
+            "title": "Monster Reagents",
+            "text": "Monster Reagents are a vital ingredient used in $(l:signs_abilities/blade_oil#page_blade_oil)[Blade Oil]$(). Monster Reagents include: $(li)Rotten Flesh$(li)Spider Eye$(li)Slimeball$(li)Bone"
+        },
+        {
+            "type": "patchouli:empty",
+            "draw_filler": false
+        },
+        {
+            "anchor": "page_using_blade_oil",
+            "type": "patchouli:spotlight",
+            "title": "Using Blade Oil",
+            "item": "witcheroriginaddon:blade_oil",
+            "text": "While holding a $(l:weapon_category)Witcher sword$() in your mainhand, and $(l:signs_abilities/blade_oil#page_blade_oil)[Blade Oil]$() in your offhand, striking a foe that is weak to your blade type will consume 1 [Blade Oil] and deal additional damage to the target. A useful tool when hunting a target for a $(l:contracts/contracts#page_contracts)contract.$()"
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/blade_oil_tutorial.png"
+            ],
+            "text": "You must be holding a weapon with a Blade tag and striking the corresponding enemy type!"
+        }
+    ]
+}

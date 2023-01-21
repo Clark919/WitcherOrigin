@@ -1,0 +1,20 @@
+{
+    "name": "Axii Sign",
+    "icon": "witcheroriginaddon:textures/gui/axii.png",
+    "category": "witcheroriginaddon:abilities_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "If $(l:signs_abilities/selection_wheel)selected$(), the Witcher can press $(6)$(l)[$(k:origins.ternary_active)]$() $(l)(Origins: Ternary Active)$() to cast Axii - a simple hypnotic sign that will immobilise and blind the first enemy it hits for 7s. Axii has a cooldown of 14s after casting."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Cooldown Bar",
+            "border": true,
+            "images": [
+                "witcheroriginaddon:textures/gui/axii_image.png"
+            ],
+            "text": "$(l)TIP$(): Axii can be used to escape a challenging foe, or to set up an easy target!"
+        }
+    ]
+}

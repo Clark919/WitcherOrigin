@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:smithing",
+  "base": {
+    "item": "witcheroriginaddon:grandmaster_kaer_morhen_boots"
+  },
+  "addition": {
+    "item": "witcheroriginaddon:bear_medallion"
+  },
+  "result": {
+    "item": "witcheroriginaddon:ursine_boots"
+  }
+}

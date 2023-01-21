@@ -1,0 +1,68 @@
+{
+    "name": "Chainmail Set",
+    "icon": "minecraft:chainmail_chestplate",
+    "category": "witcheroriginaddon:weapon_category",
+    "pages": [
+        {
+            "anchor": "page_chainmail_helmet",
+            "type": "patchouli:spotlight",
+            "item": "minecraft:chainmail_helmet",
+            "link_recipe": true,
+            "text": "The standard chainmail helmet. Can be crafted by anyone, but cannot be worn by a Witcher."
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shaped)",
+            "text": "Ingredients: $(l:crafting/chainmail#page_chainmail)Chainmail$() x5",
+            "images": [
+                "witcheroriginaddon:textures/gui/chainmail_helmet_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_chainmail_chestplate",
+            "type": "patchouli:spotlight",
+            "item": "minecraft:chainmail_chestplate",
+            "link_recipe": true,
+            "text": "The standard chainmail chestplate. Used in crafting $(l:weapons_armour/kaer_morhen_set#page_kaer_morhen_chestplate)Kaer Morhen Chestplate.$()"
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shaped)",
+            "text": "Ingredients: $(l:crafting/chainmail#page_chainmail)Chainmail$() x8",
+            "images": [
+                "witcheroriginaddon:textures/gui/chainmail_chestplate_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_chainmail_leggings",
+            "type": "patchouli:spotlight",
+            "item": "minecraft:chainmail_leggings",
+            "link_recipe": true,
+            "text": "The standard chainmail leggings. Used in crafting $(l:weapons_armour/kaer_morhen_set#page_kaer_morhen_greaves)Kaer Morhen Greaves.$()"
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shaped)",
+            "text": "Ingredients: $(l:crafting/chainmail#page_chainmail)Chainmail$() x7",
+            "images": [
+                "witcheroriginaddon:textures/gui/chainmail_leggings_recipe.png"
+            ]
+        },
+        {
+            "anchor": "page_chainmail_boots",
+            "type": "patchouli:spotlight",
+            "item": "minecraft:chainmail_boots",
+            "link_recipe": true,
+            "text": "The standard chainmail boots. Used in crafting $(l:weapons_armour/kaer_morhen_set#page_kaer_morhen_boots)Kaer Morhen Boots.$()"
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shaped)",
+            "text": "Ingredients: $(l:crafting/chainmail#page_chainmail)Chainmail$() x4",
+            "images": [
+                "witcheroriginaddon:textures/gui/chainmail_boots_recipe.png"
+            ]
+        }
+
+    ]
+}

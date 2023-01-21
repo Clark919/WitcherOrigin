@@ -1,0 +1,21 @@
+{
+    "name": "Cat",
+    "icon": "witcheroriginaddon:cat_potion",
+    "category": "witcheroriginaddon:potion_category",
+    "pages": [
+        {
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:cat_potion",
+            "link_recipe": true,
+            "text": "Said to be the first and possibly most commonly used Witcher Potion, this concoction allows Witchers to pursue their quarry into their dark lairs. Cat provides the following effects:$(li)$(l)Duration$(): 150s$(li)$(l)Your eyes automatically adjust in dark environments.$()$(li)$(l)Grants a small speed boost.$()$(li)$(l:potions/toxicity#page_toxicity)$(2)$(l)[Toxicity]$(): +20%"
+        },
+        {
+            "type": "patchouli:image",
+            "title": "Recipe (shapeless)",
+            "images": [
+                "witcheroriginaddon:textures/gui/cat_recipe.png"
+            ],
+            "text": "Ingredients: $(l:crafting/alcohest#page_alcohest)Alcohest$() x1, Glass Bottle x1, Golden Carrot x1, Fermented Spider Eye x1."
+        }
+    ]
+}

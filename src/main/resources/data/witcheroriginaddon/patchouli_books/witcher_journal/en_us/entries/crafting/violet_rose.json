@@ -1,0 +1,19 @@
+{
+    "name": "Violet Rose",
+    "icon": "witcheroriginaddon:violet_rose",
+    "category": "witcheroriginaddon:crafting_category",
+    "pages": [
+        {
+            "anchor": "page_violet_rose",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:violet_rose",
+            "link_recipe": true,
+            "text": "A final gift recieved by Iris Von Everec that kept her soul bound to the world of the living. A necessary ingredient in crafing the Steel Relic Weapon, $(l:weapons_armour/relic_weapons_entry#page_iris)Iris$(). Has a chance to be rewarded when turning in a Warden $(l:contracts/trophies#page_trophies)Trophy.$()"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:warden",
+            "rotate": true
+        }
+    ]
+}

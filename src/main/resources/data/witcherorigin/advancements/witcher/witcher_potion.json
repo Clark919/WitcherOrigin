@@ -1,0 +1,115 @@
+{
+  "display": {
+    "icon": {
+      "item": "witcheroriginaddon:swallow_potion"
+    },
+    "title": {
+      "translate": "advancements.witcher.witcher_potion.title"
+    },
+    "description": {
+      "translate": "advancements.witcher.witcher_potion.description"
+    },
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "witcherorigin:witcher/root",
+  "criteria": {
+    "swallow": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:swallow_potion"
+            ]
+          }
+        ]
+      }
+    },
+    "blizzard": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:blizzard_potion"
+            ]
+          }
+        ]
+      }
+    },
+    "cat": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:cat_potion"
+            ]
+          }
+        ]
+      }
+    },
+    "thunderbolt": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:thunderbolt_potion"
+            ]
+          }
+        ]
+      }
+    },
+    "full_moon": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:full_moon_potion"
+            ]
+          }
+        ]
+      }
+    },
+    "black_blood": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:black_blood_potion"
+            ]
+          }
+        ]
+      }
+    },
+    "maribor_forest": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:maribor_forest_potion"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "swallow",
+      "cat",
+      "thunderbolt",
+      "blizzard",
+      "full_moon",
+      "maribor_forest",
+      "black_blood"
+    ]
+  ]
+}

@@ -1,0 +1,51 @@
+{
+  "display": {
+    "icon": {
+      "item": "witcheroriginaddon:grandmaster_silver_sword",
+      "nbt": "{Damage:0}"
+    },
+    "title": {
+      "translate": "advancements.witcher.grandmaster_sword.title"
+    },
+    "description": {
+      "translate": "advancements.witcher.grandmaster_sword.description"
+    },
+    "frame": "goal",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "hidden": false
+  },
+  "parent": "witcherorigin:witcher/enhanced_arsenal",
+  "criteria": {
+    "steel_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:grandmaster_steel_sword"
+            ]
+          }
+        ]
+      }
+    },
+    "silver_sword": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "witcheroriginaddon:grandmaster_silver_sword"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "requirements": [
+    [
+      "steel_sword",
+      "silver_sword"
+    ]
+  ]
+}

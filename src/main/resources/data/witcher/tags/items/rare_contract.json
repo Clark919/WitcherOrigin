@@ -1,0 +1,20 @@
+{
+    "replace": false,
+    "values": [
+        "witcheroriginaddon:contract_blaze",
+        "witcheroriginaddon:contract_cave_spider",
+        "witcheroriginaddon:contract_endermite",
+        "witcheroriginaddon:contract_ghast",
+        "witcheroriginaddon:contract_guardian",
+        "witcheroriginaddon:contract_magma_cube",
+        "witcheroriginaddon:contract_piglin_brute",
+        "witcheroriginaddon:contract_pillager",
+        "witcheroriginaddon:contract_silverfish",
+        "witcheroriginaddon:contract_slime",
+        "witcheroriginaddon:contract_vindicator",
+        "witcheroriginaddon:contract_witch",
+        "witcheroriginaddon:contract_wither_skeleton",
+        "witcheroriginaddon:contract_zoglin",
+        "witcheroriginaddon:contract_zombie_villager"
+    ]
+}

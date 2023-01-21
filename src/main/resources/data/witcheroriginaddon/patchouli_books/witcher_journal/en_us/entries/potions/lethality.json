@@ -1,0 +1,21 @@
+{
+    "name": "Lethality",
+    "icon": "witcheroriginaddon:trophy_skeleton",
+    "category": "witcheroriginaddon:potion_category",
+    "pages": [
+        {
+            "anchor": "page_lethal",
+            "type": "patchouli:text",
+            "title": "Lethality",
+            "text": "Since the Witcher mutations gained from the Trial of the Grasses make Witchers tolerant to their concoctions, anyone who is not a Witcher will die upon imbibing any $(l:potion_category)Witcher Potion.$()"
+        },
+        {
+            "type": "patchouli:image",
+            "title": "  ",
+            "images": [
+                "witcheroriginaddon:textures/gui/lethality.png"
+            ],
+            "text": "  "
+        }
+    ]
+}

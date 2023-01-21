@@ -1,0 +1,15 @@
+{
+    "name": "Passive Debuffs",
+    "icon": "witcheroriginaddon:textures/gui/debuffs.png",
+    "category": "witcheroriginaddon:abilities_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "Witchers have several detriments to balance out their strengths:$(li)$(l)Weight Limit$() - Witchers fight with precision and speed, making a shield too cumbersome for their styles.$(li)$(l)Light Armoured$() - Similarly, Witchers prefer to wear light armour as it grants them more mobility in combat and travelling. Additionally, you do not wear helmets to increase your visibility and allow for easy potion consumption (Limited to Leather, Chain, Witcher Armours)."
+        },
+        {
+            "type": "patchouli:text",
+            "text": "$(li)$(l)Side-Questing$() - Witchers are more suited to hunt monsters rather than mine. 20% penalty to mining speed on pickaxe-harvestable blocks.$(li)$(l)Portal Sickness$() - You have a distaste for magic-based travel. Become Nauseated and Weakened when touching a Nether Portal.$(li)$(l)Magic Vulnerability$() - Though a skilled fighter, you can still be bested by magic, causing you to take more damage from magic sources."
+        }
+    ]
+}

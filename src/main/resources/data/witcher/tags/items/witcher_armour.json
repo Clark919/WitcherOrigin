@@ -1,0 +1,17 @@
+{
+    "replace": false,
+    "values": [
+        "witcheroriginaddon:ursine_chestplate",
+        "witcheroriginaddon:ursine_greaves",
+        "witcheroriginaddon:ursine_boots",
+        "witcheroriginaddon:wolven_chestplate",
+        "witcheroriginaddon:wolven_greaves",
+        "witcheroriginaddon:wolven_boots",
+        "witcheroriginaddon:kaer_morhen_chestplate",
+        "witcheroriginaddon:kaer_morhen_greaves",
+        "witcheroriginaddon:kaer_morhen_boots",
+        "witcheroriginaddon:grandmaster_kaer_morhen_chestplate",
+        "witcheroriginaddon:grandmaster_kaer_morhen_greaves",
+        "witcheroriginaddon:grandmaster_kaer_morhen_boots"
+    ]
+}

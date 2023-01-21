@@ -1,0 +1,21 @@
+{
+    "name": "Elder Blood",
+    "icon": "witcheroriginaddon:elder_blood",
+    "category": "witcheroriginaddon:crafting_category",
+    "pages": [
+        {
+            "anchor": "page_elder_blood",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:elder_blood",
+            "link_recipe": true,
+            "text": "A vial of blood pulsing with powerful magic, taken from a descendant of Lara Dorren. A necessary ingredient in crafing the Silver Relic Weapon, $(l:weapons_armour/relic_weapons_entry#page_zireael)Zireael$(). Has a chance to be rewarded when turning in an Ender Dragon $(l:contracts/trophies#page_trophies)Trophy.$()"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:ender_dragon",
+            "offset": -7,
+            "scale": 1.5,
+            "rotate": true
+        }
+    ]
+}

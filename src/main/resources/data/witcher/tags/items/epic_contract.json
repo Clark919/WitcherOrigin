@@ -1,0 +1,14 @@
+{
+    "replace": false,
+    "values": [
+        "witcheroriginaddon:contract_elder_guardian",
+        "witcheroriginaddon:contract_evoker",
+        "witcheroriginaddon:contract_player",
+        "witcheroriginaddon:contract_ravager",
+        "witcheroriginaddon:contract_shulker",
+        "witcheroriginaddon:contract_skeleton_horse",
+        "witcheroriginaddon:contract_vex",
+        "witcheroriginaddon:contract_warden"
+        
+    ]
+}

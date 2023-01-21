@@ -1,0 +1,64 @@
+{
+    "name": "Enemy Types",
+    "icon": "minecraft:creeper_head",
+    "category": "witcheroriginaddon:contract_category",
+    "pages": [
+        {
+            "type": "patchouli:text",
+            "text": "When facing an enemy you are hunting, it is best to be prepared with the $(l:weapon_category)correct weapon$() to hunt them with. Enemies are classified into two categories: $(l:contracts/enemy_types#page_monsters)Monsters$(), and $(l:contracts/enemy_types#page_non_humans)Non-Humans$(). Dealing damage with the correct blade type while holding $(l:signs_abilities/blade_oil#page_blade_oil)[Blade Oil]$() will deal additional damage to these foes."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/enemy_types.png"
+            ],
+            "text": "Next Page: Monsters."
+        },
+        {
+            "anchor": "page_monsters",
+            "type": "patchouli:entity",
+            "entity": "minecraft:zombie",
+            "name": "Monsters",
+            "text": "Monsters are the largest category of contracted foe, and require a $(l:weapons_armour/silver_sword_entry#page_silver_sword)silver sword$() and their respective $(l:contracts/contracts#page_contracts)contract$() to harvest their $(l:contracts/trophies#page_trophies)trophy.$()"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Monster List:",
+            "text": "$(li)Creeper$(li)Drowned$(li)Enderman$(li)Husk$(li)Phantom$(li)Skeleton$(li)Spider$(li)Stray$(li)Strider$(li)Zombie$(li)Zombified Piglin$(li)Blaze$(li)Cave Spider$(li)Endermite$(li)Ghast$(li)Guardian$(li)Magma Cube$(li)Mooshroom"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Monsters, Continued:",
+            "text": "$(li)Silverfish$(li)Slime$(li)Wither Skeleton$(li)Zoglin$(li)Zombie Villager$(li)Elder Guardian$(li)Ravager$(li)Shulker$(li)Skeleton Horse$(li)Vex$(li)Warden$(li)Ender Dragon$(li)Wither$(li)Allay$(li)Snow Golem$(li)Iron Golem$(li)Glow Squid"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:iron_golem",
+            "name": " ",
+            "text": "Not all \"monster\" entities have contracts associated with them!"
+        },
+        {
+            "anchor": "page_non_humans",
+            "type": "patchouli:entity",
+            "entity": "minecraft:vindicator",
+            "name": "Non-Humans",
+            "text": "Non-Humans have less contracts associated with them, but still require a $(l:weapons_armour/steel_sword_entry#page_steel_sword)steel sword$() and their respective $(l:contracts/contracts#page_contracts)contract$() to harvest their $(l:contracts/trophies#page_trophies)trophy.$()"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Non-Human List:",
+            "text": "$(li)Hoglin$(li)Piglin$(li)Wolf$(li)Piglin Brute$(li)Pillager$(li)Vindicator$(li)Witch$(li)Evoker$(li)Illusioner$(li)Player$(li)Axolotyl$(li)Bat$(li)Cat$(li)Chicken$(li)Cod$(li)Cow$(li)Donkey$(li)Fox$(li)Frog$(li)Horse"
+        },
+        {
+            "type": "patchouli:text",
+            "title": "Non-Humans, Continued:",
+            "text": "$(li)Mule$(li)Ocelot$(li)Parrot$(li)Pig$(li)Pufferfish$(li)Rabbit$(li)Salmon$(li)Sheep$(li)Squid$(li)Tadpole$(li)Tropical Fish$(li)Turtle$(li)Villager$(li)Wandering Trader$(li)Bee$(li)Dolphin$(li)Goat$(li)Llama$(li)Panda$(li)Polar Bear$(li)Trader Llama"
+        },
+        {
+            "type": "patchouli:entity",
+            "entity": "minecraft:villager",
+            "name": " ",
+            "text": "Not all \"non-human\" entities have contracts associated with them!"
+        }
+    ]
+}

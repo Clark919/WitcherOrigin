@@ -1,0 +1,12 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "up": "witcheroriginaddon:block/contract_board_base",
+    "down": "witcheroriginaddon:block/contract_board_base",
+    "north": "witcheroriginaddon:block/contract_board_front",
+    "east": "witcheroriginaddon:block/contract_board_front",
+    "south": "witcheroriginaddon:block/contract_board_front",
+    "west": "witcheroriginaddon:block/contract_board_front",
+    "particle": "witcheroriginaddon:block/contract_board_front"
+  }
+}

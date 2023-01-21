@@ -1,0 +1,21 @@
+{
+    "name": "Enriched Dimeritium Ingot",
+    "icon": "witcheroriginaddon:enriched_dimeritium_ingot",
+    "category": "witcheroriginaddon:crafting_category",
+    "pages": [
+        {
+            "anchor": "page_enriched_dimeritium",
+            "type": "patchouli:spotlight",
+            "item": "witcheroriginaddon:enriched_dimeritium_ingot",
+            "link_recipe": true,
+            "text": "A resource used to craft improved $(l:weapon_category)Witcher swords$(), and repair them."
+        },
+        {
+            "type": "patchouli:image",
+            "images": [
+                "witcheroriginaddon:textures/gui/enriched_dimeritium_recipe.png"
+            ],
+            "text": "Ingredients: $(l:crafting/dimeritium_ingot#page_dimeritium)Dimeritium Ingot x1$(), Lapis Lazuli x2, Diamond x2."
+        }
+    ]
+}

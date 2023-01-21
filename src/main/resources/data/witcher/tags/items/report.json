@@ -1,0 +1,8 @@
+{
+    "replace": false,
+    "values": [
+        "witcheroriginaddon:sentinel_report_uncommon",
+        "witcheroriginaddon:sentinel_report_rare",
+        "witcheroriginaddon:sentinel_report_epic"
+    ]
+}

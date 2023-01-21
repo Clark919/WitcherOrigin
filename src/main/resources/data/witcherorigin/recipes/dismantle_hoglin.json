@@ -1,0 +1,12 @@
+{
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+        {
+            "item": "witcheroriginaddon:trophy_hoglin"
+        }
+    ],
+    "result": {
+        "item": "minecraft:cooked_porkchop",
+        "count": 8
+    }
+}

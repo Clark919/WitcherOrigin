@@ -9,7 +9,7 @@
             "actions": [
                 {
                     "type": "origins:execute_command",
-                    "command": "playsound witcheroriginaddon:aerondight_deplete neutral @a ~ ~ ~ 2 1.5"
+                    "command": "playsound witcheroriginaddon:aerondight_sword_deplete neutral @a ~ ~ ~ 2 1.5"
                 },
                 {
                     "type": "origins:execute_command",
@@ -23,7 +23,7 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "item": "witcheroriginaddon:aerondight"
+                    "item": "witcheroriginaddon:aerondight_sword"
                 }
             }
         },
@@ -38,7 +38,7 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "witcheroriginaddon:aerondight"
+                        "item": "witcheroriginaddon:aerondight_sword"
                     }
                 }
             }
@@ -82,7 +82,7 @@
                     "item_condition": {
                         "type": "origins:ingredient",
                         "ingredient": {
-                            "item": "witcheroriginaddon:aerondight"
+                            "item": "witcheroriginaddon:aerondight_sword"
                         }
                     }
                 }
@@ -114,7 +114,7 @@
                     "type": "origins:actor_action",
                     "action": {
                         "type": "origins:execute_command",
-                        "command": "playsound witcheroriginaddon:aerondight_attack neutral @a ~ ~ ~ 1 1.8"
+                        "command": "playsound witcheroriginaddon:aerondight_sword_attack neutral @a ~ ~ ~ 1 1.8"
                     }
                 },
                 {
@@ -137,7 +137,7 @@
                             "item_condition": {
                                 "type": "origins:ingredient",
                                 "ingredient": {
-                                    "item": "witcheroriginaddon:aerondight"
+                                    "item": "witcheroriginaddon:aerondight_sword"
                                 }
                             }
                         }            
@@ -190,7 +190,7 @@
                             "item_condition": {
                                 "type": "origins:ingredient",
                                 "ingredient": {
-                                    "item": "witcheroriginaddon:aerondight"
+                                    "item": "witcheroriginaddon:aerondight_sword"
                                 }
                             }
                         }            
@@ -234,7 +234,7 @@
                         "item_condition": {
                             "type": "origins:ingredient",
                             "ingredient": {
-                                "item": "witcheroriginaddon:aerondight"
+                                "item": "witcheroriginaddon:aerondight_sword"
                             }
                         }         
                     },

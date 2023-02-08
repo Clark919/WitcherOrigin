@@ -52,7 +52,7 @@
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "item": "witcheroriginaddon:zireael"
+                "item": "witcheroriginaddon:zireael_sword"
             }
         }
     },
@@ -70,7 +70,7 @@
             "item_condition": {
                 "type": "origins:ingredient",
                 "ingredient": {
-                    "item": "witcheroriginaddon:zireael"
+                    "item": "witcheroriginaddon:zireael_sword"
                 }
             }
         }

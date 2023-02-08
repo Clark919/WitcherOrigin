@@ -16,6 +16,7 @@ public class IrisSwordBase extends SwordItem {
     public IrisSwordBase(IrisSwordMaterial toolMaterial) {
         super(toolMaterial, -1, -2.2f, new Settings().group(WitcherItemGroup.WITCHER).rarity(Rarity.RARE));
     }
+
     @Override
     @Environment(EnvType.CLIENT)
     public void appendTooltip(ItemStack stack, World world, List<Text> tooltip, TooltipContext context) {

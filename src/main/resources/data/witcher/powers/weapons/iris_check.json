@@ -14,7 +14,7 @@
                 "item_condition": {
                     "type": "origins:ingredient",
                     "ingredient": {
-                        "item": "witcheroriginaddon:iris"
+                        "item": "witcheroriginaddon:iris_sword"
                     }
                 }
             }
@@ -54,7 +54,7 @@
                     "item_condition": {
                         "type": "origins:ingredient",
                         "ingredient": {
-                            "item": "witcheroriginaddon:iris"
+                            "item": "witcheroriginaddon:iris_sword"
                         }
                     }
                 },
@@ -100,7 +100,7 @@
                     "item_condition": {
                         "type": "origins:ingredient",
                         "ingredient": {
-                            "item": "witcheroriginaddon:iris"
+                            "item": "witcheroriginaddon:iris_sword"
                         }
                     }
                 },
@@ -179,7 +179,7 @@
                     "item_condition": {
                         "type": "origins:ingredient",
                         "ingredient": {
-                            "item": "witcheroriginaddon:iris"
+                            "item": "witcheroriginaddon:iris_sword"
                         }
                     }
                 },

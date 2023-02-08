@@ -31,9 +31,9 @@ public class WitcherOrigin implements ModInitializer {
         Registry.register(Registry.ITEM, new Identifier(WitcherOrigin.MOD_ID, "enhanced_steel_sword"), new EnhancedWitcherSteelSwordBase(new EnhancedWitcherSwordMaterial()));
         Registry.register(Registry.ITEM, new Identifier(WitcherOrigin.MOD_ID, "grandmaster_silver_sword"), new GrandmasterWitcherSilverSwordBase(new GrandmasterWitcherSwordMaterial()));
         Registry.register(Registry.ITEM, new Identifier(WitcherOrigin.MOD_ID, "grandmaster_steel_sword"), new GrandmasterWitcherSteelSwordBase(new GrandmasterWitcherSwordMaterial()));
-        Registry.register(Registry.ITEM, new Identifier(WitcherOrigin.MOD_ID, "iris"), new IrisSwordBase(new IrisSwordMaterial()));
-        Registry.register(Registry.ITEM, new Identifier(WitcherOrigin.MOD_ID, "aerondight"), new AerondightSwordBase(new AerondightSwordMaterial()));
-        Registry.register(Registry.ITEM, new Identifier(WitcherOrigin.MOD_ID, "zireael"), new ZireaelSwordBase(new ZireaelSwordMaterial()));
+        Registry.register(Registry.ITEM, new Identifier(WitcherOrigin.MOD_ID, "iris_sword"), new IrisSwordBase(new IrisSwordMaterial()));
+        Registry.register(Registry.ITEM, new Identifier(WitcherOrigin.MOD_ID, "aerondight_sword"), new AerondightSwordBase(new AerondightSwordMaterial()));
+        Registry.register(Registry.ITEM, new Identifier(WitcherOrigin.MOD_ID, "zireael_sword"), new ZireaelSwordBase(new ZireaelSwordMaterial()));
         Registry.register(Registry.ITEM, new Identifier(WitcherOrigin.MOD_ID, "winters_blade"), new WintersBladeSwordBase(new WintersBladeSwordMaterial()));
         Registry.register(Registry.ITEM, new Identifier(WitcherOrigin.MOD_ID, "dimeritium_ingot"), DimeritiumIngot);
         Registry.register(Registry.ITEM, new Identifier(WitcherOrigin.MOD_ID, "enriched_dimeritium_ingot"), EnrichedDimeritiumIngot);

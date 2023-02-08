@@ -1,6 +1,6 @@
 {
     "name": "Relic Weapons",
-    "icon": "witcheroriginaddon:iris",
+    "icon": "witcheroriginaddon:iris_sword",
     "category": "witcheroriginaddon:weapon_category",
     "pages": [
         {
@@ -18,7 +18,7 @@
         {
             "anchor": "page_zireael",
             "type": "patchouli:spotlight",
-            "item": "witcheroriginaddon:zireael",
+            "item": "witcheroriginaddon:zireael_sword",
             "link_recipe": true,
             "text": "A blade gifted to the Witcheress Ciri by her adoptive father, Geralt of Rivia. While holding $(c)[Zireael]$() in your mainhand, press $(6)$(l)[$(k:use)]$() to teleport 10 blocks in the direction you are facing, ignoring any terrain. Gain temporary invulnerability when you appear at your target location. Deal damage to the first enemy you dash through using this ability."
         },
@@ -33,7 +33,7 @@
         {
             "anchor": "page_aerondight",
             "type": "patchouli:spotlight",
-            "item": "witcheroriginaddon:aerondight",
+            "item": "witcheroriginaddon:aerondight_sword",
             "link_recipe": true,
             "text": "A blade awarded by the Lady of the Lake to a knight she deems virtous and good. While holding $(c)[Aerondight]$() in your mainhand, press $(6)$(l)[$(k:use)]$() to imbue 1 XP level into the weapon, empowering it with 30 charges (600 charges maximum). While empowered, $(c)[Aerondight]$() will deal bonus damage, summon lightning on enemies exposed to the sky, and make the wielder immune to lightning. Each hit will deplete 1 charge."
         },
@@ -48,7 +48,7 @@
         {
             "anchor": "page_iris",
             "type": "patchouli:spotlight",
-            "item": "witcheroriginaddon:iris",
+            "item": "witcheroriginaddon:iris_sword",
             "link_recipe": true,
             "text": "The blade of Olgierd Von Everec, named after his betrothed. Unlocks $(l)Adrenaline$(). Each strike with $(c)[Iris]$() will generate 1 $(l)Adrenaline$() point (3 charges maximum, depletes over time). When your $(l)Adrenaline$() meter is full, strike an opponent to rend them, dealing high damage with a low chance to set their health to 1. Alternatively, press $(6)$(l)[$(k:use)]$() to whirl, dealing damage to enemies in your attack radius passively and destroying any arrows that enter the radius. Both abilities will set your $(l)Adrenaline$() to 0 when used."
         },

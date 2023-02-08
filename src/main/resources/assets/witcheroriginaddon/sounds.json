@@ -74,13 +74,13 @@
   "aerondight_attack": {
     "subtitle": "witcheroriginaddon.aerondight_attack",
     "sounds": [
-      "witcheroriginaddon:aerondight_attack"
+      "witcheroriginaddon:aerondight_sword_attack"
     ]
   },
   "aerondight_deplete": {
     "subtitle": "witcheroriginaddon.aerondight_deplete",
     "sounds": [
-      "witcheroriginaddon:aerondight_deplete"
+      "witcheroriginaddon:aerondight_sword_deplete"
     ]
   },
   "new_quest": {

@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "witcheroriginaddon:iris",
+      "item": "witcheroriginaddon:iris_sword",
       "nbt": "{Damage:0}"
     },
     "title": {
@@ -23,7 +23,7 @@
         "items": [
           {
             "items": [
-              "witcheroriginaddon:iris"
+              "witcheroriginaddon:iris_sword"
             ]
           }
         ]

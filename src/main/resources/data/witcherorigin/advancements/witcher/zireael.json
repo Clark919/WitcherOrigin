@@ -1,7 +1,7 @@
 {
   "display": {
     "icon": {
-      "item": "witcheroriginaddon:zireael",
+      "item": "witcheroriginaddon:zireael_sword",
       "nbt": "{Damage:0}"
     },
     "title": {
@@ -23,7 +23,7 @@
         "items": [
           {
             "items": [
-              "witcheroriginaddon:zireael"
+              "witcheroriginaddon:zireael_sword"
             ]
           }
         ]
